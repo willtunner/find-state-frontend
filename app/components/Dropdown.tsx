@@ -15,7 +15,6 @@ export const Dropdown: React.FC<DropdownProps> = ({ states }) => {
   const dropdownRef = useRef<HTMLUListElement>(null);
 
   const [isFocused, setIsFocused] = useState(false);
-  const inputRef = useRef(null);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
