@@ -47,6 +47,10 @@ export const Dropdown: React.FC<DropdownProps> = ({ states }) => {
     setShowDropdown(false);
   };
 
+  const handleIconClick = () => {
+    setShowDropdown(!showDropdown); // Alternar entre verdadeiro e falso
+  };
+
   return (
     <div className={styles.dropdownContainer}>
       <div className={`${styles.inputContainer} ${isFocused ? styles.focused : ''}`}>
@@ -77,7 +81,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ states }) => {
             ))}
           </ul>
         )}
-        <FontAwesomeIcon icon={faList} className={styles.icon} />
+        <FontAwesomeIcon icon={faList} className={styles.icon} onClick={handleIconClick}/>
       </div>
     </div>
   );
