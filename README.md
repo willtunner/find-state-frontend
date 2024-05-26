@@ -1,5 +1,6 @@
-# Teste Técnico Front-end (Exibido os estados que o back-end retorna )
+# Teste Técnico Front-end 
 
+### (Exibido os estados que o back-end retorna )
 > Aplicação simples que contem um dropdown centralizado na tela que mostra os estados retornados pelo back-end com 4 bordas coloridas criadas com flex-box do css.
 >
 > Front-end criado em nextJs utilizando a dependência axios, typeScript para buscar os estados que 
