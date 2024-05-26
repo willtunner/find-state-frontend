@@ -69,8 +69,13 @@ export default function Home() {
   };
 
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Estados do Brasil</h1>
+    <div className={styles.pageContainer}>
+      <div className={styles.borderTop}></div>
+      <div className={styles.borderRight}></div>
+      <div className={styles.borderBottom}></div>
+      <div className={styles.borderLeft}></div>
+      
+      <div className={styles.container}>
       <div className={styles.dropdownContainer}>
         <div className={styles.inputContainer}>
           <label className={styles.label}>Estados</label>
@@ -105,6 +110,7 @@ export default function Home() {
         </div>
         
       </div>
+    </div>
     </div>
   );
 }

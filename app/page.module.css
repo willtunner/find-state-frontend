@@ -1,7 +1,51 @@
+.pageContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.borderTop, .borderRight, .borderBottom, .borderLeft {
+  position: absolute;
+}
+
+.borderTop {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #5CCD60;
+}
+
+.borderRight {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: #3A56B9;
+}
+
+.borderBottom {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  background-color: #DDD272;
+}
+
+.borderLeft {
+  top: 0;
+  left: 0;
+  bottom: 30px;
+  width: 30px;
+  background-color: #CD6060;
+}
+
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
 }
 
 .title {
@@ -54,10 +98,11 @@
   padding: 5px;
   cursor: pointer;
   margin-right: 10px;
+  margin-top: 5px;
 }
 
 .item:hover {
-  background-color: orange;
+  background-color: #FF7932;
   border-radius: 5px;
   color: white;
   
