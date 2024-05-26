@@ -6,12 +6,12 @@
 > Front-end criado em nextJs utilizando a dependência axios, typeScript para buscar os estados que 
 a api retorna, criado uma função para desincriptografar os nomes dos estados encriptografado com uma criptografia própria sem uso de bibliotecas.
 
-# Imagem do projeto
+### Imagem do projeto
 <div align="center">
   <img src="/img/01.png" width="30%">
 </div>
 
-## Como usar
+### Como usar
 
 ```ini
   - Certifique de que o node esteja insalado v20^, ou baixe 'https://nodejs.org/'
