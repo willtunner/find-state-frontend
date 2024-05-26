@@ -97,7 +97,8 @@
   width: calc(100%);
   background-color: aliceblue;
   overflow-y: auto;
-  height: 200px;
+  max-height: 200px;
+  height: auto;
   scrollbar-gutter: stable both-edges;
 }
 
