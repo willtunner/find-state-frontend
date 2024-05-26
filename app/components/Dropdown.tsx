@@ -48,7 +48,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ states }) => {
   };
 
   const handleIconClick = () => {
-    setShowDropdown(!showDropdown); // Alternar entre verdadeiro e falso
+    setShowDropdown(!showDropdown);
   };
 
   return (
