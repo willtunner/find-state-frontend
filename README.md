@@ -6,12 +6,12 @@
 > Front-end criado em nextJs utilizando a dependência axios, typeScript para buscar os estados que 
 a api retorna, criado uma função para desincriptografar os nomes dos estados encriptografado com uma criptografia própria sem uso de bibliotecas.
 
-### Imagem do projeto
+### Imagem do projeto:
 <div align="center">
   <img src="/img/01.png" width="30%">
 </div>
 
-### Como usar
+### Como usar:
 
 ```ini
   - Certifique de que o node esteja insalado v20^, ou baixe 'https://nodejs.org/'
@@ -26,13 +26,13 @@ Api executada no seguinte path:
 
 - `http://localhost:3001/`: Path raiz onde mostra o dropdown a ser exibido
 
-### Escolha o estado
+### Escolha o estado:
 
 Ao clicar no dropdown será mostrado todos os estados e quando digitar ele irá mostrar somente os estados com os caracteres digitados, quando tiver o focus a cor da borda muda para um laranja assim como o hover do dropdown. 
 
-### Como funciona
-> Usando o axios comuminos o path GET: `http://localhost:3000/states` que o back-end fornece os estado, como o nome dos estados está criptografado ele será exibido dessa forma. 
-> Foi criado uma função para descriptografar o nome dos estados.
+### Como funciona:
+> Usando o axios comuminos o path GET: `http://localhost:3000/states` que o back-end fornece os estados, como o nome dos estados está criptografado ele será exibido da forma abaixo. 
+> Foi criado uma função para descriptografar o nome dos estados fornecido pelo back-end.
 
 
 ```json
