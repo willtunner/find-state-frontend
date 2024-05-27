@@ -25,6 +25,7 @@
   bottom: 0;
   width: 30px;
   background-color: #3A56B9;
+  z-index: 2;
 }
 
 .borderBottom {
@@ -33,6 +34,7 @@
   bottom: 0;
   height: 30px;
   background-color: #DDD272;
+  z-index: 1;
 }
 
 .borderLeft {
