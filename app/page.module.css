@@ -2,6 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  background-color: white;
 }
 
 .borderTop, .borderRight, .borderBottom, .borderLeft {
@@ -85,6 +86,8 @@
   font-size: 16px;
   border: none;
   outline: none;
+  background-color: transparent;
+  color: black;
 }
 
 .dropdown {
@@ -110,6 +113,7 @@
   margin-right: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
+  color: black;
 }
 
 .item:hover {
