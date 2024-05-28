@@ -78,6 +78,7 @@
 
 .label {
   margin-right: 10px;
+  color: black;
 }
 
 .input {
@@ -127,4 +128,5 @@
   margin-left: 10px;
   cursor: pointer;
   width: 50px;
+  color: black;
 }

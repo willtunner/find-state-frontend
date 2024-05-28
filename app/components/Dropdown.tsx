@@ -54,7 +54,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ states }) => {
   return (
     <div className={styles.dropdownContainer}>
       <div className={`${styles.inputContainer} ${isFocused ? styles.focused : ''}`}>
-        <label className={styles.label}>Estados</label>
+        <label className={styles.label}>Estados: </label>
         <input
           type="text"
           className={styles.input}
